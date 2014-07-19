@@ -4,9 +4,9 @@
     {
         public static void Main(string[] args)
         {
-            var partieBowling = new BowlingGame();
+            var bowlingGame = new BowlingGame();
 
-            partieBowling
+            bowlingGame
                  .Lancer(10)
                  .Lancer(10)
                  .Lancer(10)
